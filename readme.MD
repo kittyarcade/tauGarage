@@ -1,12 +1,18 @@
 ##Technologies:
-* jQuery
+* jQuery (AJAX)
 * HTML
+* javascript
+* JSON
 
-[ ] get user input for car
+[X] get user input for car
 
-[ ] add cars to Garage from user import
+[X] add cars to Garage from user import
 
-[ ] display on DOM all cars in Garage
+[X] display on DOM all cars in Garage
+
+[] add Ajax call for a JSON file from the web
+
+[]
 
 
 ##stretch goals

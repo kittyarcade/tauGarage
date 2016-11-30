@@ -7,7 +7,6 @@ $(document).ready(function(){
 //button click event for testButton
 $('#parkCarButton').on('click', function(){
   console.log('parkCarButton clicked');
-
   //get user input and save it to an object
   var newCar = {
     year: $('#year').val(),
