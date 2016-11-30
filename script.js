@@ -35,4 +35,18 @@ var displayGarage = function() {
   }//end for loop
  $( '#outputDiv' ).html( outputText );
 }; //end displayGarage
+
+var getCarsFromWebJsonPlaceSomewhereOutThereIsTheTruth = function(){
+    console.log( 'in getCarsFromWebJsonPlaceSomewhereOutThereIsTheTruth' );
+
+$.ajax({
+  url: 'http://devjana.net/support/cars.json',
+  dataType: 'JSON',
+  success: function(data){
+    console.log('success, received: ', data );
+    console.log('data.cars: ', data.cars);
+  }
+});
+};
+  getCarsFromWebJsonPlaceSomewhereOutThereIsTheTruth();
 });//end document ready
